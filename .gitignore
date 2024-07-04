@@ -1,0 +1,29 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore system and IDE-specific files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+env/
+
+# Ignore logs and other generated files
+*.log
+*.xlsx
+*.csv
+
+# Ignore sensitive or private information
+config.ini
+secrets.json
+
+# Ignore backup files
+*.bak
+*.swp
